@@ -3,7 +3,7 @@
     "build": "vite build",
     "dev": "vite",
     "preview": "vite preview",
-    "format": "prettier --write \"src/**/*.{js,jsx}\"",
+    "format": "prettier --write \"src/**/*.{js,jsx,css,html}\"",
     "lint": "eslint"
   },
   "type": "module",
