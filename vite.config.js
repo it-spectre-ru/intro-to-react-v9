@@ -11,8 +11,8 @@ export default defineConfig({
       "/public": {
         target: "http://localhost:3000/",
         changeOrigin: true
-      }
-    }
+      },
+    },
   },
   plugins: [react()],
 }); 
