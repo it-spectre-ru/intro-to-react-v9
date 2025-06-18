@@ -1,9 +1,9 @@
-import { useState } from "react";
+import { useState } from "react"; //
 import Pizza from "./Pizza";
 
 export default function Order() {
-  const [pizzaType, setPizzaType] = useState("pepperoni");
-  const [pizzaSize, setPizzaSize] = useState("M");
+  const [pizzaType, setPizzaType] = useState("pepperoni"); //
+  const [pizzaSize, setPizzaSize] = useState("M"); //
 
   return (
     <div className="order">
@@ -13,7 +13,7 @@ export default function Order() {
           <div>
             <label htmlFor="pizza-type">Pizza Type</label>
             <select
-              onChange={(e) => setPizzaType(e.target.value)}
+              onChange={(e) => setPizzaType(e.target.value)} //
               name="pizza-type"
               value={pizzaType}
             >
@@ -28,7 +28,7 @@ export default function Order() {
               <span>
                 <input
                   checked={pizzaSize === "S"}
-                  onChange={(e) => setPizzaSize(e.target.value)}
+                  onChange={(e) => setPizzaSize(e.target.value)} //
                   type="radio"
                   name="pizza-size"
                   value="S"
@@ -39,7 +39,7 @@ export default function Order() {
               <span>
                 <input
                   checked={pizzaSize === "M"}
-                  onChange={(e) => setPizzaSize(e.target.value)}
+                  onChange={(e) => setPizzaSize(e.target.value)} //
                   type="radio"
                   name="pizza-size"
                   value="M"
@@ -50,7 +50,7 @@ export default function Order() {
               <span>
                 <input
                   checked={pizzaSize === "L"}
-                  onChange={(e) => setPizzaSize(e.target.value)}
+                  onChange={(e) => setPizzaSize(e.target.value)} //
                   type="radio"
                   name="pizza-size"
                   value="L"
