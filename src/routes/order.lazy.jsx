@@ -11,7 +11,6 @@ const intl = new Intl.NumberFormat("en-US", {
 });
 
 export const Route = createLazyFileRoute("/order")({
-  //26. Lazy Loading Routes
   component: Order,
 });
 

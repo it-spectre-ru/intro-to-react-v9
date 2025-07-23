@@ -10,11 +10,11 @@ export default [
     ...reactPlugin.configs.flat.recommended,
     settings: {
       react: {
-        version: "detect"
+        version: "detect",
       },
     },
   },
-  reactPlugin.configs.flat['jsx-runtime'],
+  reactPlugin.configs.flat["jsx-runtime"],
   {
     files: ["**/*.js", "**/*.jsx"],
     languageOptions: {
@@ -27,8 +27,8 @@ export default [
     },
     rules: {
       "react/no-unescaped-entities": "off",
-      "react/prop-types": "off"
+      "react/prop-types": "off",
     },
   },
   prettier,
-]
+];
